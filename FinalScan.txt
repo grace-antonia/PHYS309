@@ -1,0 +1,96 @@
+import model sm
+generate e+ e- > e+ e- h /p t ta+ l+ vl w+ 
+output eeHee_anomalyscan_leadingorder
+launch -n run_390
+shower=Pythia8
+detector=Delphes
+analysis=ExRoot
+1
+2
+0
+set mass mz 9.118800e+01
+set aewm1 1.325070e+02
+set decay wz 2.441404e+00
+set decay wh 6.382339e-03
+set ebeam 195
+0
+launch -n run_390_25
+0
+set ebeam 195.125
+0
+launch -n run_390_50
+0 
+set ebeam 195.25
+0
+launch -n run_390_75
+0
+set ebeam 195.375
+0
+launch -n run_391
+0
+set ebeam 195.5
+0
+launch -n run_391_25
+0
+set ebeam 195.625
+0
+launch -n run_391_50
+0
+set ebeam 195.75
+0
+launch -n run_391_75
+0
+set ebeam 195.875
+0
+launch -n run_392
+0
+set ebeam 196
+0
+launch -n run_392_25
+0
+set ebeam 196.125
+0
+launch -n run_392_50
+0
+set ebeam 196.25
+0
+launch -n run_392_75
+0
+set ebeam 196.375
+0
+launch -n run_393
+0
+set ebeam 196.5
+0
+launch -n run_393_25
+0
+set ebeam 196.625
+0
+launch -n run_393_50
+0
+set ebeam 196.75
+0
+launch -n run_393_75
+0
+set ebeam 196.875
+0
+launch -n run_394
+0
+set ebeam 197
+0
+launch -n run_394_25
+0
+set ebeam 197.125
+0
+launch -n run_394_50
+0
+set ebeam 197.25
+0
+launch -n run_394_75
+0
+set ebeam 197.375
+0
+launch -n run_395
+0
+set ebeam 197.5
+0

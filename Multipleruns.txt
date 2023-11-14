@@ -1,0 +1,84 @@
+import model loop_qcd_qed_sm1
+generate e+ e- > e+ e- h [noborn=QED] /p t ta+ l+ vl w+ g0 g+ g- ghg ghz ghwp ghwm gha
+output eeHee_lamda200
+launch -n run_240_lam200
+shower=Pythia8
+detector=Delphes
+analysis=ExRoot
+1
+2
+0
+set mass mz 9.118800e+01
+set aewm1 1.325070e+02
+set decay wz 2.441404e+00
+set decay wh 6.382339e-03
+set ebeam 120
+0
+launch -n run_250_lam200
+0
+set ebeam 125
+0
+launch -n run_260_lam2000
+0 
+set ebeam 130
+0
+launch -n run_270_lam2000
+0
+set ebeam 135
+0
+launch -n run_280_lam2000
+0
+set ebeam 140
+0
+launch -n run_290_lam2000
+0
+set ebeam 145
+0
+launch -n run_300_lam2000
+0
+set ebeam 150
+0
+launch -n run_310_lam2000
+0
+set ebeam 155
+0
+launch -n run_320_lam2000
+0
+set ebeam 160
+0
+launch -n run_330_lam2000
+0
+set ebeam 165
+0
+launch -n run_340_lam2000
+0
+set ebeam 170
+0
+launch -n run_350_lam2000
+0
+set ebeam 175
+0
+launch -n run_360_lam2000
+0
+set ebeam 180
+0
+launch -n run_365_lam2000
+0
+set ebeam 182.5
+0
+launch -n run_370_lam2000
+0
+set ebeam 185
+0
+launch -n run_380_lam2000
+0
+set ebeam 190
+0
+launch -n run_390_lam2000
+0
+set ebeam 195
+0
+launch -n run_400_lam2000
+0
+set ebeam 200
+0
